@@ -1,0 +1,19 @@
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+.fondo {
+    background-image: url('./Blog/Header.jpeg');
+    background-size:cover;
+    background-position:bottom;
+    text-align: end;    
+}
+.size {
+    font-size: 32px;
+}
+.poem {
+    font-family: 'Libre Baskerville';
+}
+.abajo {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
