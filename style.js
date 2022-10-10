@@ -7,7 +7,6 @@ readMore_btn.addEventListener('click', toggleText);
 
 function toggleText() {
   hideText.classList.toggle('showText');
-  aceiteUno.classList.toggle('showText');
 
 
   if(hideText.classList.contains('showText')) {
