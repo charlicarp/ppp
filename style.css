@@ -17,29 +17,6 @@
     margin-bottom: 10px;
     margin-left: 10px;
 }
-.readMore_btn {
-    background-color: #038007;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding:6px 24px;
-    font-size: 1.2em;
-    box-shadow: none;
-    cursor: pointer;
-  }
-  
-  .readMore_btn:hover {
-    box-shadow: none;
-    background-color: black;
-    color: #fff;
-    
-  }
-  
-   
-  .hideText {
-    display: none;
-  }
-  
-  .showText {
-    display: block;
-  }
+.carru {
+    text-align: left;
+}
