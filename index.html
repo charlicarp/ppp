@@ -16,13 +16,13 @@
 
   <header> <!--Inicio Navbar-->
     <nav class="navbar navbar-expand-lg">
-      <div class="container justify-content-start">
+      <div class="container justify-content-center">
         <a class="navbar-brand " href="./index.html">
           <img src="./Logos/Logo 300x200.png" alt="">
         </a>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-lg ms-5">
+    <nav class="navbar navbar-expand-md ms-5">
       <div class="container-fluid">
         <button class="navbar-toggler mb-3 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@
               <a class="nav-link fw-bolder text-dark" href="./pasta.html"><i class="fa-solid fa-plate-wheat"></i> Pastas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link fw-bolder text-dark" href="./salsasyaderezos.html"><i class="fa-solid fa-jar"></i> Pomodoro</a>
+              <a class="nav-link fw-bolder text-dark" href="./pomodoro.html"><i class="fa-solid fa-jar"></i> Pomodoro</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bolder text-dark" href="./almacen.html"><i class="fa-solid fa-store"></i> Almacén</a>
@@ -51,29 +51,93 @@
   </header> <!--Fin Navbar-->
  
 <main> <!--Inicio Main-->
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./Web Nube/Headers/Header Pizza.png" class="d-block w-100" alt="...">
+  <section> <!--Inicio Card-->
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-around mt-2 ms-2 me-3 mb-5">
+      <div class="col "> <!--Card 1-->
+        <div class="card h-100">
+          <img src="././Logos/Logo Pizza.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder" style="color: #ff1616;">Nuestras Pizzas</h5>
+            <p class="card-text">Creamos, de manera artesanal, <span style="color:#008037 ; font-weight: bolder;">pizzas estilo napoletano</span> respetando las formas y los tiempos de su receta original.</p>
+          </div>
+          <div class="card-footer bg-dark">
+              <small class="text-muted">Encontranos en Instagram como:</small> <br>
+          <a href="https://www.instagram.com/las.astillas/" target="_blank" class="text-light hover"><i class="fa-brands fa-instagram"></i> las.astillas</a>
+          </div>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="./Web Nube/Headers/Header Pastas.png" class="d-block w-100" alt="...">
+      <div class="col"> <!--Card 2-->
+        <div class="card h-100">
+          <img src="./Logos/Logo Pasta.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder" style="color: #ff1616;">Nuestras Pastas</h5>
+            <p class="card-text">Te invitamos a recorrer nuestra renovada y exlusiva<strong> <a href="https://treinta.shop/papaylaspastas" target="_blank" class="text-dark"><i class="fa-solid fa-shop"></i> Tienda Online</strong></a> y encontrar las mejores opciones en pastas italianas.</p>
+          </div>
+          <div class="card-footer bg-dark">
+              <small class="text-muted">Encontranos en Instagram como:</small> <br>
+              <a href="https://www.instagram.com/papaylaspastas/" target="_blank" class="text-light hover"><i class="fa-brands fa-instagram"></i> papaylaspastas</a> 
+          </div>
+        </div>
       </div>
-      <div class="carousel-item">
-        <img src="./Web Nube/Headers/Header Pomodori.png" class="d-block w-100" alt="...">
+      <div class="col"> <!--Card 3-->
+        <div class="card h-100">
+          <img src="./Logos/Logo Pomodoro.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder" style="color: #ff1616;">Nuestros Tomates</h5>
+            <p class="card-text">La mas alta calidad en tomates, importados desde Italia, con los mas altos estandares de cosecha, elaboracion y produccion. Disponibles en nuestra <strong><a href="https://treinta.shop/papaylaspastas" target="_blank" class="text-dark"><i class="fa-solid fa-shop"></i> Tienda Online.</strong></a></p>
+          </div>
+          <div class="card-footer bg-dark">
+            <small class="text-muted">Encontranos en Instagram como:</small> <br>
+            <a href="https://www.instagram.com/papaylaspastas/" target="_blank" class="text-light hover"><i class="fa-brands fa-instagram"></i> papaylaspastas</a> 
+          </div>
+        </div>
       </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+      <div class="col"> <!--Card 4-->
+        <div class="card h-100">
+          <img src="./Logos/Logo Almacen .png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bolder" style="color: #ff1616;">Nuestro Almacén</h5>
+            <p class="card-text">Un Almacén lleno de productos <i>Gourmet</i> para complementar la cocina italiana o para preparar platos autenticos. Visitanos en nuestra <strong> <a href="https://treinta.shop/papaylaspastas" target="_blank" class="text-dark"><i class="fa-solid fa-shop"></i> Tienda Online</strong></a>.</p>
+          </div>
+          <div class="card-footer bg-dark">
+            <small class="text-muted">Encontranos en Instagram como:</small> <br>
+            <a href="https://www.instagram.com/papaylaspastas/" target="_blank" class="text-light hover"><i class="fa-brands fa-instagram"></i> papaylaspastas</a> 
+          </div>
+        </div>
+      </div>
+    </div>             
+  </section> <!--Fin Card-->
 </main> <!--Fin Main-->
 
+<footer> <!--Inicio Footer-->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid justify-content-center">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./Logos/Logo 300x200.png" alt="">
+      </a>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg ms-5">
+    <div class="container-fluid ">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-4" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bolder">
+          <li class="nav-item">
+            <a class="nav-link text-dark " href="https://www.instagram.com/las.astillas/"><i class="fa-solid fa-pizza-slice"></i> Nuestras Pizzas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark " href="https://treinta.shop/papaylaspastas/"><i class="fa-solid fa-shop"></i> Nuestro Almacén</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark " href="./blog.html"><i class="fa-solid fa-people-group"></i> Cocinamos Juntos?</a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</footer> <!--Fin Footer-->
 
     <!--Inicio Scripts-->
     <!--Bootstrap-->
